@@ -1,0 +1,16 @@
+# Splash Image
+splashimage=(fd0)/grub/zimsplash.xpm.gz
+
+title  ZIMx7 (Text Mode)
+root   (fd0)
+kernel /grub/kernel.elf
+
+title   ZIMx7 (1024x768x32 A)
+root    (fd0)
+kernel  /grub/kernel.elf
+vbeset  0x118
+
+title	ZIMx7 (1024x768x32 B)
+root	(fd0)
+kernel	/grub/kernel.elf
+vbeset	0x144
